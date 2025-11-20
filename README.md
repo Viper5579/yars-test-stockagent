@@ -20,9 +20,36 @@ YARS is a Python package designed to simplify the process of scraping Reddit for
 - **Results Display**: Utilize `Pygments` for colorful display of JSON-formatted results.
 
 > [!WARNING]
-> Use with rotating proxies, or Reddit might gift you with an IP ban.  
-> I could extract max 2552 posts at once from 'r/all' using this.  
+> Use with rotating proxies, or Reddit might gift you with an IP ban.
+> I could extract max 2552 posts at once from 'r/all' using this.
 > [Here](https://files.catbox.moe/zdra2i.json) is a **7.1 MB JSON** file containing the top 100 posts from 'r/nosleep', which included post titles, body text, all comments and their replies, post scores, time of upload etc.
+
+## Quick Start
+
+### Mac Users
+
+**[📖 Mac Quickstart Guide with Proxy Setup](MAC_QUICKSTART.md)**
+
+Complete guide for Mac setup including:
+- Step-by-step installation
+- Rotating proxy configuration (free & paid options)
+- Integration with AI/ML projects (stock sentiment analysis, etc.)
+- Production-ready examples
+
+### Stock Market / AI Agent Users
+
+**[📈 Stock Sentiment Scraper Example](example/stock_sentiment_scraper.py)**
+
+Pre-built scraper for collecting stock market sentiment from Reddit:
+```bash
+uv run example/stock_sentiment_scraper.py
+```
+
+Perfect for:
+- AI trading agents
+- Sentiment analysis models
+- Market research
+- Social media analytics
 
 ## Dependencies
 
